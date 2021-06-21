@@ -2,7 +2,7 @@ create table users(
   id int(11) primary key auto_increment,
   mail varchar(100) not null,
   password varchar(100) not null,
-  user_name char(100) not null,
+  user_name varchar(100) not null,
   user_introduction varchar(1000),
   office_phone char(13),
   cell_phone char(13),
