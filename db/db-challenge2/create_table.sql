@@ -13,7 +13,7 @@ create table users(
 
 create table chatrooms(
   id int(11) primary key auto_increment,
-  dhat_name varchar(100) not null,
+  chat_name varchar(100) not null,
   chat_description varchar(1000),
   created_by_id int(11) not null,
   created_at timestamp default current_timestamp not null,
