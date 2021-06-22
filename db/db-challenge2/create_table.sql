@@ -31,7 +31,8 @@ create table chat_members(
   chat_id int(11) not null,
   joined_at timestamp default current_timestamp not null,
   foreign key(user_id) references users(id),
-  foreign key(chat_id) references chatrooms(id)
+  foreign key(chat_id) references chatrooms(id),
+  primary key(user_id,chat_id)
 ) engine InnoDB;
 
 create table posts(
