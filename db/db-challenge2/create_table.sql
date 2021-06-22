@@ -4,8 +4,8 @@ create table users(
   password varchar(100) not null,
   user_name varchar(100) not null,
   user_introduction varchar(1000),
-  office_phone char(13),
-  cell_phone char(13),
+  office_phone varchar(13),
+  cell_phone varchar(13),
   created_at timestamp default current_timestamp not null,
   updated_at timestamp default current_timestamp not null,
   is_deleted tinyint(1) default 0 not null
