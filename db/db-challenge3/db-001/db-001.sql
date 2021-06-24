@@ -1,4 +1,4 @@
-insert into users(id,mail,password,user_name,user_introduction,office_phone,cell_phone,created_at,updated_at,is_deleted) values
+insert into users values
 (1,'admin@labot.inc','admin','admin','このスペースの管理者です。','00-0000-0000',null,'2020-04-20 15:47:52','2020-04-20 15:47:52',0),
 (2,'mysql@labot.inc','mysql55','mysql',null,null,'080-1234-1253','2020-04-22 16:02:55','2020-04-22 16:02:55',0),
 (3,'sqlserver@labot.inc','apple','sqlserver','オラクルデータベースが好きです。',null,null,'2020-04-22 17:32:55','2020-04-22 17:32:55',0),
