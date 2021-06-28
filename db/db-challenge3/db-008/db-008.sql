@@ -1,7 +1,7 @@
 select
   u.user_name as ユーザー名,
   c.chat_name as チャット名,
-  date_format(cm.joined_at,'%Y-%c-%d') as 参加日時,
+  date_format(cm.joined_at,'%Y-%c-%d') as 参加日時
 from chat_members as cm
 join users as u
   on cm.user_id = u.id
