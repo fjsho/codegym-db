@@ -5,7 +5,7 @@ set
   updated_by_user_id = 1,
   updated_at = current_timestamp
 where id not in (
-  select distinct chpat_id
+  select distinct chat_id
   from chat_members
   where user_id = 1
   )
